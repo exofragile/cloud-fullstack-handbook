@@ -1,0 +1,5 @@
+[
+  { "name": "Introduction to AWS", "date": "12 October", "level": "Beginner", "featured": true },
+  { "name": "Getting Started with Google Cloud", "date": "19 October", "level": "Beginner", "featured": false },
+  { "name": "Cloud Security Basics", "date": "26 October", "level": "Intermediate", "featured": false }
+]

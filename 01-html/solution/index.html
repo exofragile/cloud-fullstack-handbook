@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cloud Computing Events</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+
+  <a href="#workshops">Skip to workshops</a>
+
+  <header>
+    <h1>Cloud Computing Events</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#workshops">Workshops</a></li>
+        <li><a href="#register">Register</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <p>Hands-on workshops for students who want to learn cloud platforms.</p>
+
+    <figure>
+      <img src="images/workshop.jpg" alt="Students working on laptops in a cloud workshop" width="400">
+      <figcaption>Students collaborating during a past cloud workshop.</figcaption>
+    </figure>
+
+    <section class="workshop-grid" id="workshop-list">
+      <h2 id="workshops">Upcoming Workshops</h2>
+
+      <article class="workshop featured">
+        <h3>Introduction to AWS</h3>
+        <ul>
+          <li>Date: 12 October</li>
+          <li>Level: Beginner</li>
+        </ul>
+      </article>
+
+      <article class="workshop">
+        <h3>Getting Started with Google Cloud</h3>
+        <ul>
+          <li>Date: 19 October</li>
+          <li>Level: Beginner</li>
+        </ul>
+      </article>
+
+      <article class="workshop">
+        <h3>Cloud Security Basics</h3>
+        <ul>
+          <li>Date: 26 October</li>
+          <li>Level: Intermediate</li>
+        </ul>
+      </article>
+    </section>
+
+    <p>All workshops are <span>free</span> for students.</p>
+
+    <section>
+      <table>
+        <caption>Schedule</caption>
+        <thead>
+          <tr>
+            <th>Workshop</th>
+            <th>Date</th>
+            <th>Time</th>
+            <th>Speaker</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Introduction to AWS</td>
+            <td>12 October</td>
+            <td>10:00</td>
+            <td>Sara</td>
+          </tr>
+          <tr>
+            <td>Getting Started with Google Cloud</td>
+            <td>19 October</td>
+            <td>10:00</td>
+            <td>Omar</td>
+          </tr>
+          <tr>
+            <td>Cloud Security Basics</td>
+            <td>26 October</td>
+            <td>14:00</td>
+            <td>Lina</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <video controls src="intro.mp4" width="400"></video>
+      <audio controls src="talk.mp3"></audio>
+    </section>
+
+    <section>
+      <h2 id="register">Register</h2>
+      <form id="register-form" action="/register" method="post">
+
+        <label for="fullname">Full name</label>
+        <input type="text" id="fullname" name="fullname" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="workshop">Workshop</label>
+        <select id="workshop" name="workshop">
+          <option value="aws">Introduction to AWS</option>
+          <option value="gcp">Getting Started with Google Cloud</option>
+          <option value="security">Cloud Security Basics</option>
+        </select>
+
+        <fieldset>
+          <legend>Experience level</legend>
+          <input type="radio" id="beginner" name="experience" value="beginner">
+          <label for="beginner">Beginner</label>
+          <input type="radio" id="intermediate" name="experience" value="intermediate">
+          <label for="intermediate">Intermediate</label>
+          <input type="radio" id="advanced" name="experience" value="advanced">
+          <label for="advanced">Advanced</label>
+        </fieldset>
+
+        <label for="guests">Number of guests</label>
+        <input type="number" id="guests" name="guests" min="0" max="3">
+
+        <p class="checkbox-row">
+          <input type="checkbox" id="reminders" name="reminders">
+          <label for="reminders">Send me reminders</label>
+        </p>
+
+        <label for="comments">Comments</label>
+        <textarea id="comments" name="comments" rows="3"></textarea>
+
+        <button type="submit">Register</button>
+      </form>
+    </section>
+
+    <aside>
+      <h2>Did you know?</h2>
+      <p>Cloud providers run data centres all over the world.</p>
+    </aside>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Cloud Computing Events</p>
+  </footer>
+</body>
+</html>
