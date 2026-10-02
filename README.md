@@ -2,7 +2,7 @@
 
 **HTML • CSS • JavaScript • Node.js — explained like a friend is sitting next to you.**
 
-This repository is a complete, beginner-friendly rebuild of the *Full Stack Development – Supporting Material Pack* (93 pages, HTML → CSS → JavaScript → Node.js/Express/REST/MongoDB). Every concept, table, code sample, exercise, "common mistake", link and "concept worth exploring" from the original is here, but re-told in plain language with analogies, "what you should see" walkthroughs, and working code you can run.
+This repository is a complete, beginner-friendly rebuild of the _Full Stack Development – Supporting Material Pack_ (93 pages, HTML → CSS → JavaScript → Node.js/Express/REST/MongoDB). Every concept, table, code sample, exercise, "common mistake", link and "concept worth exploring" from the original is here, but re-told in plain language with analogies, "what you should see" walkthroughs, and working code you can run.
 
 > 🎯 **Goal:** by the end you will have built a real (small) full-stack app: a web page you designed, styled and made interactive, talking to a server you wrote yourself.
 
@@ -12,13 +12,13 @@ This repository is a complete, beginner-friendly rebuild of the *Full Stack Deve
 
 Imagine a restaurant:
 
-| Layer | Restaurant analogy | Technology | What it does |
-|---|---|---|---|
-| **Structure** | The building: walls, tables, doors | **HTML** | Says *what* things are (a heading, a button, a form) |
-| **Presentation** | The decor: colours, lighting, layout | **CSS** | Says *how* things look |
-| **Behaviour** | The waiters who react to you | **JavaScript** | Makes the page *do* things |
-| **The kitchen** | Where orders are received and prepared | **Node.js + Express** | A server that receives requests and answers them |
-| **The pantry** | Where ingredients are kept safely | **MongoDB** | A database that remembers data after the power goes off |
+| Layer            | Restaurant analogy                     | Technology            | What it does                                            |
+| ---------------- | -------------------------------------- | --------------------- | ------------------------------------------------------- |
+| **Structure**    | The building: walls, tables, doors     | **HTML**              | Says _what_ things are (a heading, a button, a form)    |
+| **Presentation** | The decor: colours, lighting, layout   | **CSS**               | Says _how_ things look                                  |
+| **Behaviour**    | The waiters who react to you           | **JavaScript**        | Makes the page _do_ things                              |
+| **The kitchen**  | Where orders are received and prepared | **Node.js + Express** | A server that receives requests and answers them        |
+| **The pantry**   | Where ingredients are kept safely      | **MongoDB**           | A database that remembers data after the power goes off |
 
 ```mermaid
 flowchart LR
@@ -32,14 +32,14 @@ flowchart LR
 
 ## 🗺️ Your learning path
 
-Follow the chapters **in order**. The exercises are *sequential*: each one builds on the page you made in the previous one.
+Follow the chapters **in order**. The exercises are _sequential_: each one builds on the page you made in the previous one.
 
-| # | Chapter | You will learn | Sections |
-|---|---|---|---|
-| 1 | [**HTML**](01-html/README.md) | Elements, attributes, nesting, semantic tags, forms, tables, media, linking CSS/JS | 7 |
-| 2 | [**CSS**](02-css/README.md) | Selectors, colours & units, the box model, the cascade, Flexbox, Grid, responsive design | 9 + capstone |
-| 3 | [**JavaScript**](03-javascript/README.md) | Variables, types, objects, arrays, control flow, functions, errors, the DOM, events, `fetch`/`async`/JSON/REST | 13 + capstone |
-| 4 | [**Node.js, Express & REST**](04-nodejs-express-rest/README.md) | Running JS outside the browser, npm, modules, servers, Express, REST APIs, MongoDB & Mongoose, testing | 12 |
+| #   | Chapter                                                         | You will learn                                                                                                 | Sections      |
+| --- | --------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | ------------- |
+| 1   | [**HTML**](01-html/README.md)                                   | Elements, attributes, nesting, semantic tags, forms, tables, media, linking CSS/JS                             | 7             |
+| 2   | [**CSS**](02-css/README.md)                                     | Selectors, colours & units, the box model, the cascade, Flexbox, Grid, responsive design                       | 9 + capstone  |
+| 3   | [**JavaScript**](03-javascript/README.md)                       | Variables, types, objects, arrays, control flow, functions, errors, the DOM, events, `fetch`/`async`/JSON/REST | 13 + capstone |
+| 4   | [**Node.js, Express & REST**](04-nodejs-express-rest/README.md) | Running JS outside the browser, npm, modules, servers, Express, REST APIs, MongoDB & Mongoose, testing         | 12            |
 
 Extras:
 
@@ -52,7 +52,7 @@ Extras:
 
 ## 🏗️ The project you'll build: **Cloud Computing Events**
 
-A small website for a fictional series of cloud workshops. You build it *layer by layer*:
+A small website for a fictional series of cloud workshops. You build it _layer by layer_:
 
 ```mermaid
 flowchart TD
@@ -61,7 +61,7 @@ flowchart TD
     C --> D["Chapter 4<br/>Give it a backend: a REST API<br/>and a MongoDB signup"]
 ```
 
-Each chapter has a `solution/` folder with the finished result *of that chapter*, so you can compare your work (there's always more than one correct answer — compare **structure and reasoning**, not exact text).
+Each chapter has a `solution/` folder with the finished result _of that chapter_, so you can compare your work (there's always more than one correct answer — compare **structure and reasoning**, not exact text).
 
 <p align="center">
   <img src="assets/css-final-desktop-vs-phone.png" alt="The finished Cloud Computing Events page shown on a wide screen and on a 375px phone" width="700"><br>
@@ -73,7 +73,7 @@ Each chapter has a `solution/` folder with the finished result *of that chapter*
 ## 🧰 What you need before you start
 
 - A **text editor** – [VS Code](https://code.visualstudio.com/) is a great free choice (the PDF also uses its Postman extension in Chapter 4).
-- A modern **browser** with **DevTools** (Chrome, Edge, Firefox…). Press **F12** to open it. You'll use it *constantly*.
+- A modern **browser** with **DevTools** (Chrome, Edge, Firefox…). Press **F12** to open it. You'll use it _constantly_.
 - **Node.js** (Chapter 4 only) – you'll install it from [nodejs.org](https://nodejs.org/).
 - **MongoDB** running locally (only for the last example in Chapter 4).
 - Curiosity. That's it. 💛
@@ -124,7 +124,7 @@ Every lesson follows the same rhythm so you always know where you are:
 
 1. **💡 The big idea** – one plain-English paragraph (often with an analogy).
 2. **🔍 The details** – the full explanation, tables, and code.
-3. **🛠️ Try it** – the exercises from the original, each with *what to do*, *what you should see*, and *why*.
+3. **🛠️ Try it** – the exercises from the original, each with _what to do_, _what you should see_, and _why_.
 4. **⚠️ Watch out** – the classic traps.
 5. **📚 Go deeper** – links to the best docs.
 
@@ -144,5 +144,9 @@ Every lesson follows the same rhythm so you always know where you are:
 - Screenshots and diagrams in `assets/` come from the original PDF.
 - Every external link in the lessons is one of the PDF's own links (all 84 are in [Useful links](resources/useful-links.md)), except the two official homepages `nodejs.org` and `code.visualstudio.com`.
 - I did not click the external links to check that they are still live. I did validate all 15 diagrams with the Mermaid parser and checked every internal link and image.
+
+> [!IMPORTANT]
+> **Note on AI Generation**
+> The source material for this repository was a scrambled and poorly documented PDF. This codebase is an AI-generated effort to improve, clarify, and build upon that original material. Aside from minor additions and error fixes, there was almost no human intervention in the core development process.
 
 Ready? Start with [**Chapter 1: HTML →**](01-html/README.md) 🚀
