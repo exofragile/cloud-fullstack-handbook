@@ -8,11 +8,11 @@ Imagine giving styling instructions to a decorator. You could (a) scribble a not
 
 ## 🔍 The details
 
-| Method | Where the CSS lives | When to use it |
-|---|---|---|
-| **Inline** | In the `style` attribute of one element | Quick tests only. It is hard to maintain. |
-| **Internal** | In a `<style>` element in the `<head>` | A single page or a demo. |
-| **External** | In a separate `.css` file linked with `<link>` | **Almost always.** |
+| Method       | Where the CSS lives                            | When to use it                            |
+| ------------ | ---------------------------------------------- | ----------------------------------------- |
+| **Inline**   | In the `style` attribute of one element        | Quick tests only. It is hard to maintain. |
+| **Internal** | In a `<style>` element in the `<head>`         | A single page or a demo.                  |
+| **External** | In a separate `.css` file linked with `<link>` | **Almost always.**                        |
 
 ```html
 <!-- 1. Inline: one element only -->
@@ -20,11 +20,13 @@ Imagine giving styling instructions to a decorator. You could (a) scribble a not
 
 <!-- 2. Internal: inside the <head> of one page -->
 <style>
-  p { color: navy; }
+  p {
+    color: navy;
+  }
 </style>
 
 <!-- 3. External: a separate file shared by every page -->
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="styles.css" />
 ```
 
 ### Using an external stylesheet
@@ -33,9 +35,9 @@ Create a file called `styles.css` **next to your HTML file** and link it inside 
 
 ```html
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Cloud Computing Events</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css" />
 </head>
 ```
 
@@ -50,11 +52,11 @@ body {
 
 ## 🛠️ Try it — Exercise 1
 
-*All exercises are sequential from the previous chapter.*
+_All exercises are sequential from the previous chapter._
 
 1. **Create `styles.css`** next to your `index.html`, link it in the `<head>`, add the `body` rule above, save and refresh.
    **You should see:** the text switches to a sans-serif font (Arial). Everything else is unchanged.
-2. **Add a comment above the rule.** *Does it change anything on the page?* **No.** Comments are ignored by the browser; they are notes for humans. Use them to label sections of your stylesheet.
+2. **Add a comment above the rule.** _Does it change anything on the page?_ **No.** Comments are ignored by the browser; they are notes for humans. Use them to label sections of your stylesheet.
 3. **Misspell the file name in the `href`** (e.g. `style.css`) and refresh. Open the **Console** or **Network** tab in DevTools and find the error.
    **You should see:** the page goes back to the default look, and a red **404 (Not Found)** for the misspelled file in the Network tab (and a message in the Console). Lesson: when styles "don't apply at all", check the path first. Then fix the name.
 
@@ -70,4 +72,4 @@ body {
 
 ---
 
-⬅️ [Chapter 2 home](README.md) · ➡️ Next: [**2 · Selectors**](02-selectors.md)
+⬅️ [Chapter 2 · CSS](README.md) · ➡️ Next: [**2 · Selectors**](02-selectors.md)
