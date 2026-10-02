@@ -72,4 +72,4 @@ _All exercises are sequential from the previous chapter._
 
 ---
 
-⬅️ [Chapter 2 · CSS](README.md) · ➡️ Next: [**2 · Selectors**](02-selectors.md)
+⬅️ [Chapter 2 home](README.md) · ➡️ Next: [**2 · Selectors**](02-selectors.md)
